@@ -1,0 +1,20 @@
+VPM cells juxtasomally recorded:
+VPM_cell_37 - A2 monovibrissa RF
+VPM_cell_57 - c4 monovibrissa RF
+
+variables:
+whiskparams - relevant fields are:
+	samples - samples in which whisker position is calculated (upsampled to 1kHz from video rate)
+	position - angle of vibrissa relative to face in each sample where position is calculated
+	spikes - samples in which spikes detected
+	iswhisking - samples where whisking is detected
+	
+ 
+Angle convention
+angle = Center of mass of all vibrissae relative to middle of pad
+
+-180 = fully retracted
+-90  = perpendicular to pad
+0    = fully protracted
+
+For further details refer to Moore JD, Mercer Lindsay N, Deschênes M, Kleinfeld D (2015) Vibrissa Self-Motion and Touch Are Reliably Encoded along the Same Somatosensory Pathway from Brainstem through Thalamus. PLoS Biol 13(9): e1002253. doi:10.1371/journal.pbio.1002253
